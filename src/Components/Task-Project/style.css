@@ -1,0 +1,112 @@
+.line-through{
+    text-decoration: line-through;
+}
+
+
+.Completed{
+    margin-top: 5px;
+    margin-left: 15px;
+    border: #2dc200 solid 2px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #2dc200;
+    transition:200ms ease-in-out;
+}
+
+.Completed:hover{
+    border:green 2px solid;
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+}
+
+.Completed:active{
+    padding: 9px;
+}
+
+.Uncompleted{
+        margin-top: 5px;
+        margin-left: 15px;
+        border:#d1c515 solid 2px;
+        border-radius: 20px;
+        padding: 10px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        background-color:#d1c515;
+        transition:200ms ease-in-out;
+}
+
+.Uncompleted:hover{
+    border:#918800 2px solid;
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+}
+
+.Uncompleted:active{
+    padding: 9px;
+}
+
+.remove{
+    margin-top: 5px;
+    margin-left: 15px;
+    border:#c91902 solid 2px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color:#c91902;
+    transition:200ms ease-in-out;
+}
+
+.remove:hover{
+    border:#5e0b00 2px solid;
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+}
+
+.taskBody{
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    border: 8px #3fc918 solid;
+    border-radius: 10px;
+}
+
+
+.listbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: justify;    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#2dc200;
+}
+
+li{
+    list-style-type: none;
+}
+
+.add{
+    background-color: green;
+    padding: 8px;
+    margin-left: 10px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.add:hover{
+    border:#2dc200 2px solid;
+}
